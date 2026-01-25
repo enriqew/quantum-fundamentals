@@ -1,0 +1,6 @@
+# Project 9: Quantum Simulation
+amazon-braket-sdk>=1.73.0
+amazon-braket-default-simulator>=1.21.0
+numpy>=1.24.0
+scipy>=1.11.0
+matplotlib>=3.7.0

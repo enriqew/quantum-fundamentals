@@ -1,0 +1,6 @@
+# Project 11: Shor's Algorithm
+amazon-braket-sdk>=1.73.0
+amazon-braket-default-simulator>=1.21.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+sympy>=1.12

@@ -1,0 +1,8 @@
+# Project 1: Hello World - Superposition and Measurement
+# These are the minimum dependencies for this project.
+# For the full repository, use the root requirements.txt
+
+amazon-braket-sdk>=1.73.0
+amazon-braket-default-simulator>=1.21.0
+numpy>=1.24.0
+matplotlib>=3.7.0
