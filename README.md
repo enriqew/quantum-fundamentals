@@ -1,11 +1,27 @@
 # Quantum Computing Fundamentals
 
-A comprehensive, progressive learning repository for quantum computing using AWS Braket. Designed for programmers with strong mathematical backgrounds who are new to quantum computing.
+**Live demo:** [eredonda.com/projects/quantum-lab](https://eredonda.com/projects/quantum-lab?utm_source=github&utm_medium=referral)
+
+Twelve quantum algorithms implemented from their gates rather than called from a
+library, ordered so each depends only on the ones before it, ending with the
+machinery applied to computational biology.
+
+## Scope, stated plainly
+
+Everything runs on Braket's **local** simulators (`braket_sv`, `braket_dm`).
+Nothing here has been submitted to a managed simulator or to QPU hardware, so
+there are no device ARNs and no task costs. An AWS account is not required to
+run any of it.
+
+One project does not deliver what its name promises. Project 11 (Shor's
+algorithm) implements the QFT and the full classical half, but the controlled
+modular arithmetic that would make period-finding quantum is a stub, so
+order-finding runs classically. The file says so at the top. Projects 8 (Grover),
+9 (Trotterised simulation) and 12 (swap test) do build and run real circuits.
 
 ## Prerequisites
 
 - Python 3.9+
-- AWS Account with Braket access
 - Strong foundation in linear algebra and complex numbers
 - Familiarity with probability theory
 
@@ -118,7 +134,6 @@ This repository uses AWS Braket simulators:
 |-----------|-------------|----------|
 | `braket_sv` | State vector simulator | Small circuits, debugging |
 | `braket_dm` | Density matrix simulator | Noise modeling |
-| `braket_ahs` | Analog Hamiltonian | Quantum simulation |
 
 **Cost Note:** Local simulators are free. Managed simulators have per-task costs.
 

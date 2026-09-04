@@ -16,7 +16,14 @@ Complexity:
     Classical (Number Field Sieve): O(exp((64/9)^(1/3) (ln N)^(1/3) (ln ln N)^(2/3)))
     Quantum (Shor): O((log N)^3) with polynomial space
 
-This file provides a complete, mathematically rigorous implementation.
+Scope, stated up front. The classical half of Shor is complete and rigorous:
+reduction to order-finding, continued fractions, and factor recovery. The
+quantum half is not. `qft_circuit` and `inverse_qft_circuit` are implemented
+and correct, but `controlled_modular_multiplication` is a stub, nothing calls
+the QFT helpers from main(), and order-finding runs through
+`classical_order_finding`. So this file demonstrates the structure of the
+algorithm and computes correct factorisations, but it does not factor anything
+quantumly. Building the controlled modular arithmetic is the open work here.
 """
 
 import sys
