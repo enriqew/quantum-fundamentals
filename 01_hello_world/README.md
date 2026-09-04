@@ -148,7 +148,7 @@ A single qubit in superposition represents 2 values simultaneously. With $n$ qub
 | 50 | 1 state at a time | ~10^15 states simultaneously |
 | 300 | 1 state at a time | More than atoms in universe |
 
-This **exponential parallelism** is the foundation of quantum speedups. However, extracting useful information requires clever use of interference—that's what quantum algorithms do!
+This **exponential parallelism** is the foundation of quantum speedups. However, extracting useful information requires clever use of interference, that's what quantum algorithms do!
 
 ### Classical vs Quantum Randomness
 
@@ -191,7 +191,7 @@ A measured qubit in superposition appears random, but it's fundamentally differe
 
 ## Next Steps
 
-In [Project 2: Bell State](../02_bell_state/), we'll explore **entanglement**—when two or more qubits become correlated in ways impossible classically.
+In [Project 2: Bell State](../02_bell_state/), we'll explore **entanglement**, when two or more qubits become correlated in ways impossible classically.
 
 ## References
 

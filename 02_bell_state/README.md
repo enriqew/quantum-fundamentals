@@ -184,7 +184,7 @@ The resolution: Entanglement is a correlation in the quantum probability amplitu
 
 ## Next Steps
 
-In [Project 3: Quantum Teleportation](../03_quantum_teleportation/), we'll use entanglement to transfer an unknown quantum state from one qubit to another—without physically moving the qubit!
+In [Project 3: Quantum Teleportation](../03_quantum_teleportation/), we'll use entanglement to transfer an unknown quantum state from one qubit to another, without physically moving the qubit!
 
 ## References
 

@@ -6,7 +6,7 @@ Twelve quantum algorithms implemented from their gates rather than called from a
 library, ordered so each depends only on the ones before it, ending with the
 machinery applied to computational biology.
 
-## Scope, stated plainly
+## Scope: stated plainly
 
 Everything runs on Braket's **local** simulators (`braket_sv`, `braket_dm`).
 Nothing here has been submitted to a managed simulator or to QPU hardware, so
@@ -116,7 +116,7 @@ pip install -r requirements.txt
 
 ```bash
 aws configure
-# Enter your AWS Access Key ID, Secret Access Key, and region
+# Enter your AWS Access Key ID: Secret Access Key, and region
 ```
 
 ### 3. Run Your First Quantum Program
